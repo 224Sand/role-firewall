@@ -80,8 +80,8 @@ class AllowIf(_BaseRule):
 class AllowIfContext(_BaseRule):
     """Allow only if title matches AND any `description_has` term appears in
     the description. Use for ambiguous categories that are valid only with
-    supporting context (e.g. 'Engineering Manager' allowed only when the
-    description mentions 'product roadmap')."""
+    supporting context (e.g. a 'Question' ticket title allowed only when the
+    description mentions 'billing' or 'refund')."""
     description_has: list[str] = field(default_factory=list)
     confidence: Literal["high", "medium", "low"] = "medium"
 
