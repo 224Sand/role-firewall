@@ -1,4 +1,4 @@
-# role-firewall
+# role-firewall / Deterministic AI Model Pre-Filter & Governance Cost Optimization 
 
 ![python](https://img.shields.io/badge/python-3.10+-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![stdlib only](https://img.shields.io/badge/deps-stdlib%20only-orange)
 
